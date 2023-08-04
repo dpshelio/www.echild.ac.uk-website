@@ -1,0 +1,61 @@
+project:
+  type: website
+  output-dir: _site
+ 
+website:
+  title: "ECHILD"
+  image: "android-chrome-512x512.png"
+  favicon: "favicon.ico"
+  google-analytics: "G-YMFX7T0CQN"
+  open-graph: true
+  twitter-card: true
+  site-url: https://ucl-echild.github.io
+  repo-url: https://github.com/UCL-ECHILD/UCL-ECHILD.github.io
+  issue-url: https://github.com/UCL-ECHILD/echild-rd/issues/new/choose
+  repo-actions: [edit, issue]
+  page-navigation: true
+  search: true
+  back-to-top-navigation: true
+  page-footer:
+    center:
+      - text: "License"
+        href: license.qmd
+    right:
+      - icon: twitter
+        href: https://twitter.com/ucl_echild
+        aria-label: ECHILD on Twitter
+      - icon: github
+        href: https://github.com/UCL-ECHILD/echild-rd
+        aria-label: ECHILD on GitHub
+  navbar:
+    title: false
+    background: dark
+    logo: echild.png
+    logo-alt: "ECHILD logo."
+    collapse-below: lg
+    left:
+      - href: index.qmd
+        text: Overview
+      - researchers.qmd
+    tools:
+      - icon: twitter
+        href: https://twitter.com/ucl_echild
+        text: ECHILD on Twitter
+      - icon: github
+        href: https://github.com/UCL-ECHILD/echild-rd
+        text: ECHILD on GitHub
+  sidebar: true
+
+format:
+  html:
+    toc: true
+    theme: sandstone
+    css: styles.css
+    code-copy: true
+    code-overflow: wrap
+    grid:
+      sidebar-width: 250px
+      body-width: 900px
+      margin-width: 300px
+
+ # bibliography: references.bib
