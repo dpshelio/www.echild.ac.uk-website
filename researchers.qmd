@@ -2,7 +2,7 @@
 title: "Researchers"
 ---
 
-Info for researchers...
+Info for researchers.
 
 ## Can include code chunks
 
