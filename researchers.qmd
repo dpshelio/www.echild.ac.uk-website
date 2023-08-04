@@ -2,6 +2,10 @@
 title: "Researchers"
 ---
 
+```{r, echo = FALSE}
+library(reticulate)
+```
+
 Info for researchers.
 
 ## Can include code chunks
