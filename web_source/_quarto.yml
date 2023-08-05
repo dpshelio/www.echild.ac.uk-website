@@ -14,6 +14,7 @@ website:
   twitter-card: true
   site-url: https://ucl-echild.github.io
   repo-url: https://github.com/UCL-ECHILD/UCL-ECHILD.github.io
+  repo-subdir: web_source/
   issue-url: https://github.com/UCL-ECHILD/echild-rd/issues/new/choose
   repo-actions: [edit, issue]
   page-navigation: true
