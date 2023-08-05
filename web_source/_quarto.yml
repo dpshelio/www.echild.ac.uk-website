@@ -1,6 +1,9 @@
 project:
   type: website
-  output-dir: _site
+  resources: ../web_resources/*
+  output-dir: ../_site
+  # pre-render: 
+  # post-render:
  
 website:
   title: "ECHILD"
