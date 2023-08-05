@@ -1,6 +1,6 @@
 project:
   type: website
-  resources: ../web_resources/*
+  resources: static/*
   output-dir: ../_site
   # pre-render: 
   # post-render:
