@@ -64,8 +64,8 @@ jobs:
         with:
           path: web_source/
 
-     - name: Upload artifact
-       uses: actions/upload-pages-artifact@v2
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
 
       # - name: Deploy to cloudflare
       #   uses: cloudflare/wrangler-action@v3
